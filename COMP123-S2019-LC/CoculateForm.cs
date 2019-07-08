@@ -16,5 +16,31 @@ namespace COMP123_S2019_LC
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
+        }
+        /// <summary>
+        /// Thus is the shared event handler for the CaculatorButton click event
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void CoculatorButtenEven(object sender, EventArgs e)
+        {
+            var TheButton = (Button)sender;
+            int ButtonValue;
+            bool Result = int.TryParse(TheButton.Text, out ButtonValue);
+            if(Result)
+            {
+                ResultL.Text = TheButton.Text;
+            }
+            else
+            {
+                ResultL.Text = "Not a number";
+            }
+
+            
+        }
     }
 }
