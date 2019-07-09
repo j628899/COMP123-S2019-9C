@@ -250,13 +250,16 @@
             // 
             // ResultL
             // 
-            this.ResultL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.ResultL.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ResultL.Font = new System.Drawing.Font("Arial", 20F);
             this.ResultL.Location = new System.Drawing.Point(15, 9);
             this.ResultL.Name = "ResultL";
-            this.ResultL.Size = new System.Drawing.Size(692, 37);
+            this.ResultL.Size = new System.Drawing.Size(752, 37);
             this.ResultL.TabIndex = 1;
             this.ResultL.Text = "0";
+            this.ResultL.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // CoculateForm
             // 
